@@ -1,1 +1,1 @@
-# nhrrob-hide-notice
+# nhrrob-hide-admin-notice
