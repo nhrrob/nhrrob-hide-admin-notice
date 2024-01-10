@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: NHR Hide Admin Notice
+Plugin Name: NHRROB Hide Admin Notice
 Plugin URI: http://wordpress.org/plugins/nhrrob-hide-notice/
 Description: Hide all unwanted notices and keep your dashboard clean.
 Author: Nazmul Hasan Robin
@@ -14,16 +14,16 @@ if ( ! function_exists('add_action') ) {
 	exit;
 }
 
-define( 'NHRROB_HIDE_NOTICE_VERSION', '1.0.0' );
-define( 'NHRROB_HIDE_NOTICE_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
+define( 'NHRROB_HAN_ADMIN_NOTICE_VERSION', '1.0.0' );
+define( 'NHRROB_HIDE_ADMIN_NOTICE_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
-function nhrrob_hide_admin_notices(){
+function nhrrob_hide_admin_notice(){
     $current_screen = get_current_screen();
 
-    if ($current_screen && $current_screen->id !== 'toplevel_page_nhrrob-hide-notice') {
+    if ($current_screen && $current_screen->id !== 'toplevel_page_nhrrob-hide-admin-notice') {
         remove_all_actions('user_admin_notices');
         remove_all_actions('admin_notices');
     }
 }
 
-add_action('in_admin_header', 'nhrrob_hide_admin_notices', 99);
+add_action('in_admin_header', 'nhrrob_hide_admin_notice', 99);
