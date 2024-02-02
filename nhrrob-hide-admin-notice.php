@@ -1,23 +1,24 @@
 <?php
-/*
-Plugin Name: NHRROB Hide Admin Notice
-Plugin URI: http://wordpress.org/plugins/nhrrob-hide-admin-notice/
-Description: Hide all unwanted notices and keep your dashboard clean.
-Author: Nazmul Hasan Robin
-Version: 1.0.0
-Author URI: https://nazmulrobin.com
-*/
+/**
+ * Plugin Name: NHR Hide Admin Notice
+ * Plugin URI: http://wordpress.org/plugins/nhrrob-hide-admin-notice/
+ * Description: Hide all unwanted notices and keep your dashboard clean.
+ * Author: Nazmul Hasan Robin
+ * Author URI: https://nazmulrobin.com
+ * Version: 1.0.0
+ * Requires at least: 6.0
+ * Requires PHP: 7.4
+ * Text Domain: nhrrob-hide-admin-notice
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ */
 
-// Make sure we don't expose any info if called directly
-if ( ! function_exists('add_action') ) {
-	echo 'Access Denied!';
-	exit;
-}
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-define( 'NHRROB_HAN_ADMIN_NOTICE_VERSION', '1.0.0' );
+define( 'NHRROB_HIDE_ADMIN_NOTICE_VERSION', '1.0.0' );
 define( 'NHRROB_HIDE_ADMIN_NOTICE_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
-function nhrrob_hide_admin_notice(){
+function nhrrob_hide_admin_notice_init(){
     $current_screen = get_current_screen();
 
     if ($current_screen && $current_screen->id !== 'toplevel_page_nhrrob-hide-admin-notice') {
@@ -26,4 +27,4 @@ function nhrrob_hide_admin_notice(){
     }
 }
 
-add_action('in_admin_header', 'nhrrob_hide_admin_notice', 99);
+add_action('in_admin_header', 'nhrrob_hide_admin_notice_init', 99);
