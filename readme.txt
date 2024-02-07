@@ -1,6 +1,5 @@
 === NHR Hide Admin Notice | WP Dashboard Notice Cleaner ===
 Contributors: nhrrob
-Donate link: https://nazmulrobin.com/
 Tags: hide admin notice wp, hide admin notice, hide wp admin notice, remove wp admin notice
 Requires at least: 6.0
 Tested up to: 6.4

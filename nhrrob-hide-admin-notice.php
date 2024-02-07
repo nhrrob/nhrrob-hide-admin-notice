@@ -4,7 +4,6 @@
  * Plugin URI: http://wordpress.org/plugins/nhrrob-hide-admin-notice/
  * Description: Hide all unwanted notices and keep your dashboard clean.
  * Author: Nazmul Hasan Robin
- * Author URI: https://nazmulrobin.com
  * Version: 1.0.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
