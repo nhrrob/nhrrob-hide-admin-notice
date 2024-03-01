@@ -1,10 +1,10 @@
 === NHR Hide Admin Notice | WP Dashboard Notice Cleaner ===
 Contributors: nhrrob
-Tags: hide admin notices, dashboard notice manager, remove admin notices, remove unwanted notices, hide wp admin notices
+Tags: hide admin notices, hide admin notifications, notifications, notices, admin notice
 Requires at least: 6.0
 Tested up to: 6.4
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -75,6 +75,9 @@ The plugin's lightweight code ensures that it operates efficiently without slowi
 
 
 == Changelog ==
+
+= 1.0.2 - 01/03/2024 =
+- Tags updated.
 
 = 1.0.1 - 24/02/2024 =
 - Readme updated.
