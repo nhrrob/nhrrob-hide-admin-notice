@@ -4,7 +4,7 @@
  * Plugin URI: http://wordpress.org/plugins/nhrrob-hide-admin-notice/
  * Description: Hide all unwanted notices and keep your dashboard clean.
  * Author: Nazmul Hasan Robin
- * Version: 1.0.1
+ * Version: 1.0.2
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Text Domain: nhrrob-hide-admin-notice
@@ -14,7 +14,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-define( 'NHRROB_HIDE_ADMIN_NOTICE_VERSION', '1.0.1' );
+define( 'NHRROB_HIDE_ADMIN_NOTICE_VERSION', '1.0.2' );
 define( 'NHRROB_HIDE_ADMIN_NOTICE_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
 function nhrrob_hide_admin_notice_init(){
