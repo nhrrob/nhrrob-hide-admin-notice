@@ -78,7 +78,7 @@ The plugin's lightweight code ensures that it operates efficiently without slowi
 == Changelog ==
 
 = 1.0.3 - 02/03/2024 =
-- Sometiems you may want to see if there is any admin notices. Now, you can see Admin Notices on your Profile page.
+- Sometimes you may want to see if there is any admin notices. Now, you can see Admin Notices on your Profile page.
 
 = 1.0.2 - 01/03/2024 =
 - Tags updated.
