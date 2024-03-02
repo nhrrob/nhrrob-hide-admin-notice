@@ -4,7 +4,7 @@ Tags: hide admin notices, hide admin notifications, notifications, notices, admi
 Requires at least: 6.0
 Tested up to: 6.4
 Requires PHP: 7.4
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,6 +37,7 @@ We understand the importance of a fast-loading website. That's why our plugin is
 ### 💬 Join Thousands of Happy Users
 Join the growing community of WordPress users who trust NHR Hide Admin Notice to streamline their dashboard experience. Install it today and enjoy a clutter-free WordPress admin panel like never before!
 
+### Visit your profile page to see all hidden notices
 
 == Installation ==
 
@@ -75,6 +76,9 @@ The plugin's lightweight code ensures that it operates efficiently without slowi
 
 
 == Changelog ==
+
+= 1.0.3 - 02/03/2024 =
+- Sometiems you may want to see if there is any admin notices. Now, you can see Admin Notices on your Profile page.
 
 = 1.0.2 - 01/03/2024 =
 - Tags updated.
