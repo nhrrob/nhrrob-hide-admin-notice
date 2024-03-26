@@ -78,7 +78,7 @@ The plugin's lightweight code ensures that it operates efficiently without slowi
 
 == Changelog ==
 
-= 1.0.3 - 02/03/2024 =
+= 1.0.4 - 26/03/2024 =
 - WordPress tested up to version is updated to 6.5
 
 = 1.0.3 - 02/03/2024 =
