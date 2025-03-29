@@ -2,9 +2,9 @@
 Contributors: nhrrob
 Tags: disable, admin, hide, notice, notification
 Requires at least: 6.0
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,6 +77,9 @@ The plugin's lightweight code ensures that it operates efficiently without slowi
 
 
 == Changelog ==
+
+= 1.0.7 - 29/03/2025 =
+- WordPress tested up to version is updated to 6.8
 
 = 1.0.6 - 18/10/2024 =
 - WordPress tested up to version is updated to 6.7
