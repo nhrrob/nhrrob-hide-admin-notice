@@ -4,7 +4,7 @@ Tags: disable, admin, hide, notice, notification
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.11
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,7 +78,7 @@ The plugin's lightweight code ensures that it operates efficiently without slowi
 
 == Changelog ==
 
-= 1.0.11 - 10/10/2026 =
+= 1.1.0 - 10/10/2026 =
 - Compatibility tested with PHP 7.4 through 8.6
 
 = 1.0.10 - 25/09/2026 =
